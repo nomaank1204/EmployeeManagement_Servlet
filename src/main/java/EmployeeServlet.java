@@ -12,7 +12,7 @@ import java.sql.PreparedStatement;
 @WebServlet("/Employee")
 public class EmployeeServlet extends HttpServlet {
 
-    @/
+    @WebServlet("/Employee")
     protected void service(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
 
